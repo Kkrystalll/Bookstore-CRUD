@@ -1,0 +1,5 @@
+<li>
+  <%= link_to book.title, book_path(book) %>
+  |
+  <%= link_to 'X', book_path(book), method: :delete, data: { confirm: "確定嗎？" } %>
+</li>

@@ -1,0 +1,11 @@
+.field_with_errors {
+  display: inline-block;
+
+  label {
+    color: red;
+  }
+
+  input {
+    border: 2px solid red;
+  }
+}
